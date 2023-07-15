@@ -47,8 +47,8 @@ for (let i = 1; i <=50; i++ ){
         console.log("今"+ i +"回ループしました。");
     } 
 
-    if(iが4で割れる場合){
-        console.log(i % 4 === 0 );
+    if(i % 4 === 0 ){
+        console.log('4で割れる数です。"+ i' );
     }
 }
 //for分を抜けた後にアラート
